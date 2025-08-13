@@ -51,5 +51,8 @@
     "diagnostics": false,
     "metrics": false
   },
-  "disable_ai": false
+  "disable_ai": false,
+  "vim": {
+    "toggle_relative_line_numbers": true
+  }
 }
