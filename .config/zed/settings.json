@@ -7,52 +7,60 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "features": {
-    "edit_prediction_provider": "none"
+  "bottom_dock_layout": "full",
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "catppuccin-icons": true
+  },
+  "autosave": "on_focus_change",
+  "restore_on_startup": "none",
+  "buffer_font_family": "Lilex",
+  "buffer_font_size": 16,
+  "current_line_highlight": "gutter",
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show_tab_bar_buttons": false
+  },
+  "toolbar": {
+    "quick_actions": false
+  },
+  "icon_theme": {
+    "mode": "system",
+    "dark": "Zed (Default)",
+    "light": "Zed (Default)"
+  },
+  "preferred_line_length": 120,
+  "show_call_status_icon": false,
+  "soft_wrap": "preferred_line_length",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
   },
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
+    "dark": "Gruvbox Dark Hard",
+    "light": "Gruvbox Light Hard"
   },
-  "icon_theme": "Catppuccin Mocha",
-  "buffer_font_size": 16,
-  "bottom_dock_layout": "full",
   "vim_mode": true,
-  "redact_private_values": true,
-  "title_bar": {
-    "show_branch_icon": true
-  },
   "project_panel": {
+    "default_width": 320,
     "dock": "right"
   },
+  "disable_ai": true,
   "outline_panel": {
+    "button": false
+  },
+  "ui_font_family": "IBM Plex Sans",
+  "ui_font_size": 16,
+  "git_panel": {
+    "default_width": 320,
     "dock": "right"
   },
   "collaboration_panel": {
     "button": false
   },
-  "git_panel": {
-    "dock": "right",
-    "fallback_branch_name": "master"
+  "notification_panel": {
+    "button": false
   },
-  "agent": {
-    "enabled": false
-  },
-  "autosave": "on_focus_change",
-  "tab_bar": {
-    "show": true
-  },
-  "tabs": {
-    "git_status": true,
-    "file_icons": true
-  },
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
-  },
-  "disable_ai": false,
-  "vim": {
-    "toggle_relative_line_numbers": true
-  }
+  "relative_line_numbers": true
 }
