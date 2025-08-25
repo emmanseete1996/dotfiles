@@ -8,10 +8,6 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "bottom_dock_layout": "full",
-  "auto_install_extensions": {
-    "catppuccin": true,
-    "catppuccin-icons": true
-  },
   "autosave": "on_focus_change",
   "restore_on_startup": "none",
   "buffer_font_family": "Lilex",
@@ -23,11 +19,6 @@
   },
   "toolbar": {
     "quick_actions": false
-  },
-  "icon_theme": {
-    "mode": "system",
-    "dark": "Zed (Default)",
-    "light": "Zed (Default)"
   },
   "preferred_line_length": 120,
   "show_call_status_icon": false,
